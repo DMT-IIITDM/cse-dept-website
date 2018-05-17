@@ -15,3 +15,4 @@
 * You can either use `pull requests` method or directly commit to this repo
 * Avoid working on same files to avoid `merge conflicts`
 * Commit messages should be of this type `Action: short_description_of_change`. Eg: `Added: homepage file home.html`
+* Never ever do a `force push`
