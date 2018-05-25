@@ -127,6 +127,13 @@ File: Layout CSS
 #footer button{position:absolute; bottom:0; right:0; width:35px; font-size:16px; cursor:pointer;}
 #footer button em{display:none;}
 
+#footeriiitdm{
+	height:auto;
+	width:100px;
+	max-width: 100%;
+}
+
+
 
 /* Copyright
 --------------------------------------------------------------------------------------------------------------- */
@@ -229,13 +236,21 @@ td{border-width:0 1px;}
 .faico a{display:block; width:40px; height:40px; line-height:40px; font-size:20px; text-align:center;}
 
 .faico a{color:#FFFFFF;}
-.faico a:hover{color:#FFFFFF; background-color:#CCCCCC;}
+.faico a:hover{color:#FFFFFF; background-color:#CCCCCC; background:#CCCCCC;}
 
 .faicon-facebook{background-color:#3B5998;}
 .faicon-flickr{background-color:#FF0084;}
 .faicon-linkedin{background-color:#0E76A8;}
 .faicon-rss{background-color:#EE802F;}
 .faicon-twitter{background-color:#00ACEE;}
+.faicon-instagram{ 
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -366,7 +381,7 @@ table a, #comments a{background-color:inherit;}
 @media screen and (min-width:180px) and (max-width:750px) {
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0; text-align: center;}
 }
 
 @media screen and (min-width:180px) and (max-width:900px) {
@@ -397,7 +412,7 @@ table a, #comments a{background-color:inherit;}
 	.quickinfo li{max-width:250px;}
 
 	#footer div:last-child{margin-bottom:0;}
-	#footer figure.center{text-align:left;}
+	#footer figure.center{text-align:center;}
 	#footer .faico li{margin:0 10px 10px 0;}
 	#footer input{min-width:0;}
 
@@ -407,6 +422,7 @@ table a, #comments a{background-color:inherit;}
 	#comments input[type="reset"]{margin-top:10px;}
 
 	.pagination li{display:inline-block; margin:0 5px 5px 0;}
+	}
 }
 
 @media screen and (min-width:750px) and (max-width:900px) {

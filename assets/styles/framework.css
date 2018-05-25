@@ -33,6 +33,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgr{margin:0 0 10px 15px; clear:right;}
 
 
+
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
@@ -67,14 +68,19 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 --------------------------------------------------------------------------------------------------------------- */
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none; box-sizing:border-box;}
 
-.first{margin-left:0; clear:left;}
+
+.first{margin-left:0; clear:left; }
 
 .one_quarter{width:22.69938650306748%;}
 .one_third{width:31.28834355828221%;}
 .one_half, .two_quarter{width:48.46625766871166%;}
 .two_third{width:65.6441717791411%;}
 .three_quarter{width:74.23312883435584%;}
-
+#footerfirstgrid{
+		width:100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 /* Spacing
 --------------------------------------------------------------------------------------------------------------- */
