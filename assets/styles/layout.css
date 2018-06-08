@@ -73,9 +73,6 @@ File: Layout CSS
 /* Content */
 .container #content{}
 
-#twitter{display:block; padding:15px;}
-#twitter div{padding:25px 0;}
-#twitter div:first-child{border-right:2px solid;}
 
 .listing li{margin:0 0 30px 0; padding:0 0 20px 0; border-bottom:1px solid;}
 .listing li:last-child{margin-bottom:0;}
@@ -262,7 +259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Rounded Corners
 --------------------------------------------------------------------------------------------------------------- */
-.rounded, input, button, textarea, #header input, #footer input, #slide-wrapper figcaption, .avatar, #comments li, .faico a, #twitter, 
+.rounded, input, button, textarea, #header input, #footer input, #slide-wrapper figcaption, .avatar, #comments li, .faico a,  
 .pagination a, .pagination strong{border-radius:8px;}
 
 #header button, #footer button{border-radius:0 8px 8px 0;}
@@ -283,7 +280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#06213F;}
+body{color:#F9F9F9; background-color:#9A4C16;}
 
 a{color:#55ABDA;}
 
@@ -295,13 +292,13 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Rows */
-.row0, .row0 a{color:#F9F9F9; background-color:#06213F;}
-.row1{color:#979797; background-color:#06213F;}
+.row0, .row0 a{color:#F9F9F9; background-color:#9A4C16;}
+.row1{color:#979797; background-color:#9A4C16;}
 .row1 a{color:#F9F9F9; background-color:inherit;}
-.row2, .row2 a{color:#06213F; background-color:inherit;}
+.row2, .row2 a{color:#9A4C16; background-color:inherit;}
 .row3{color:#979797; background-color:inherit;}
 .row4{color:#979797; background-color:inherit;}
-.row5, .row5 a{color:#55ABDA; background-color:#06213F;}
+.row5, .row5 a{color:#55ABDA; background-color:#9A4C16;}
 
 
 /* Top Bar */
@@ -317,19 +314,30 @@ label span{color:#FF0000; background-color:inherit;}
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
 #slide-wrapper figure figcaption:hover{background-color:rgba(255,255,255,1);}
 #slider #slide-tabs li a{color:#666666; background-color:#DEDACB; border-color:#666666;}
-#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#06213F;}
+#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#9A4C16;}
 
 
 /* Content Area */
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
 
-#twitter{color:#FFFFFF; background-color:#06213F;}
-#twitter div:first-child{border-color:#FFFFFF;}
+
+.ct{
+	width:100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.ct iframe{
+	position: absolute;
+	width:100%;
+	height:100%;
+}
 
 .listing li{border-color:#D7D7D7;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
-.quickinfo li a:hover{color:#FFFFFF; background-color:#06213F;}
+.quickinfo li a:hover{color:#FFFFFF; background-color:#9A4C16;}
 
 
 /* Footer */
@@ -353,7 +361,7 @@ label span{color:#FF0000; background-color:inherit;}
 .container .sidebar nav a:hover{color:#55ABDA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current strong{color:#FFFFFF; background-color:#06213F;}
+.pagination .current strong{color:#FFFFFF; background-color:#9A4C16;}
 
 
 /* Tables + Comments */
@@ -406,8 +414,7 @@ table a, #comments a{background-color:inherit;}
 	#slider #slide-tabs li:first-child a{border-radius:0;}
 	#slider #slide-tabs li:last-child a{border-radius:0 0 8px 8px;}
 
-	#twitter div{margin:0; padding:0;}	
-	#twitter div:first-child{padding:15px 0; border-right:none;}
+
 
 	.quickinfo li{max-width:250px;}
 
