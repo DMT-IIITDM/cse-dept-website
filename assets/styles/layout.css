@@ -320,6 +320,8 @@ label span{color:#FF0000; background-color:inherit;}
 /* Content Area */
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
 
+.subhead{color: #8C1310; font-size: 24px;}
+.h7{color: #555555;}
 
 .ct{
 	width:100%;
