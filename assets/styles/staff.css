@@ -477,3 +477,10 @@ table a, #comments a{background-color:inherit;}
   display: flex;
   flex-direction: column;
 }
+.container {
+  display: flex;
+  justify-content: center;
+}
+.center {
+  width: 800x;
+}
