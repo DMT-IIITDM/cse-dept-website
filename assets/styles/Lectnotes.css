@@ -354,7 +354,7 @@ table a, #comments a{background-color:inherit;}
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-.line-break{width: 100%; font-size: 1px; color: #214b8c; line-height: 2px; background-color: #214b8c; margin-top: 20px; margin-bottom: 20px; }
+.line-break{width: 154%; font-size: 1px; color: #214b8c; line-height: 2px; background-color: #214b8c; margin-top: 20px; margin-bottom: 20px; }
 .mainbox{width: 98%;margin-left: 0px;padding-left: 15px; height: 100%;background-color:  #F2F1EB;}
 
 /* Media Queries
