@@ -236,12 +236,12 @@ td{border-width:1px;}
 .faico a{color:#FFFFFF;}
 .faico a:hover{color:#FFFFFF; background-color:#CCCCCC; background:#CCCCCC;}
 
-.faicon-facebook{background-color:#3B5998;}
+.faicon-facebook{background:#3B5998; color:#FFFFFF;}
 .faicon-flickr{background-color:#FF0084;}
 .faicon-linkedin{background-color:#0E76A8;}
 .faicon-rss{background-color:#EE802F;}
 .faicon-twitter{background-color:#00ACEE;}
-.faicon-instagram{ 
+.faicon-instagram{ color:#FFFFFF; 
   background: #f09433; 
 background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
