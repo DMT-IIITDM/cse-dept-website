@@ -345,7 +345,7 @@ table a, #comments a{background-color:inherit;}
 .beta{width: 100%;font-style: sans-serif;color: #022B3A;font-size: 24px;border-radius: 10px;}
 .gamma{width: 50%;font-size: 20px; color:#3275AA}
 
-.dropbtn { color:#022B3A;  font-family: normal; font-size: 20px; display:inline-block;  cursor: pointer; background: white; }
+.dropbtn { color:#022B3A;  font-family: normal; font-size: 20px; display:inline-block;  cursor: pointer; background: white;margin:2px;text-align: center; }
 
 .dropbtn:hover, .dropbtn:focus {   }
 
@@ -376,7 +376,7 @@ table a, #comments a{background-color:inherit;}
 
 @media screen and (min-width:180px) and (max-width:900px) {
 	.wrapper{max-width:95%;}
-
+	.gamma{width:100%;}
 	#topbar{text-align:center;}
 
 	#header #logo{margin-bottom:15px; text-align:center;}
