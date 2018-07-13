@@ -280,7 +280,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#9A4C16;}
+body{color:#F9F9F9; background-color:#022B3A;}
 
 a{color:#55ABDA;}
 
@@ -292,13 +292,15 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Rows */
-.row0, .row0 a{color:#F9F9F9; background-color:#9A4C16;}
-.row1{color:#979797; background-color:#9A4C16;}
-.row1 a{color:#F9F9F9; background-color:inherit;}
-.row2, .row2 a{color:#9A4C16; background-color:inherit;}
-.row3{color:#979797; background-color:inherit;}
-.row4{color:#979797; background-color:inherit;}
-.row5, .row5 a{color:#55ABDA; background-color:#9A4C16;}
+.row0, .row0 a{color:#FFFFFF; background-color:inherit;}
+.row1{color:#FFFFFF; background-color:inherit;}
+.row1 a{color:#FFFFFF; background-color:inherit;}
+.row2, .row2 a{color:#022B3A; background-color:inherit;}
+.row3{color: black; background-color:inherit;}
+.row3 a{color:#3275AA;}
+.row4{color:black; background-color:inherit;}
+.row4 a{color:#3275AA;}
+.row5, .row5 a{color:#55ABDA; background-color:inherit;}
 
 
 /* Top Bar */
@@ -314,7 +316,7 @@ label span{color:#FF0000; background-color:inherit;}
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
 #slide-wrapper figure figcaption:hover{background-color:rgba(255,255,255,1);}
 #slider #slide-tabs li a{color:#666666; background-color:#DEDACB; border-color:#666666;}
-#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#9A4C16;}
+#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Content Area */
@@ -322,6 +324,7 @@ label span{color:#FF0000; background-color:inherit;}
 
 .subhead{color: #8C1310; font-size: 24px;}
 .h7{color: #555555;}
+.h8{color: #022B3A; font-size: 18px;}
 
 .ct{
 	width:100%;
@@ -339,7 +342,7 @@ label span{color:#FF0000; background-color:inherit;}
 .listing li{border-color:#D7D7D7;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
-.quickinfo li a:hover{color:#FFFFFF; background-color:#9A4C16;}
+.quickinfo li a:hover{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Footer */
@@ -363,13 +366,13 @@ label span{color:#FF0000; background-color:inherit;}
 .container .sidebar nav a:hover{color:#55ABDA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current strong{color:#FFFFFF; background-color:#9A4C16;}
+.pagination .current strong{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 th{color:#FFFFFF; background-color:#373737;}
-tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
+tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#E1E5F2;}
 tr:nth-child(odd), #comments li:nth-child(odd){color:inherit; background-color:#FFFFFF;}
 table a, #comments a{background-color:inherit;}
 
@@ -454,18 +457,18 @@ table a, #comments a{background-color:inherit;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
 }
 /*Staff*/
-.faculty_box{background-color: #edeaea; width: 250px; height:95%; border-left: 5px solid #3275aa; color: black; border-radius: 5px; padding:10px; margin: 5px 5px 25px;}
+.faculty_box{background-color: #E1E5F2; width: 250px; height:95%; border-left: 5px solid #3275aa; color: black; border-radius: 5px; padding:10px; margin: 5px 5px 25px;}
 .column {float: left; width: 31.00%; padding: 10px;}
 .row:after {display: table; clear: both;}
 .empty_box{ height: 425px; width: 100%; border-radius: 5px; padding: 10px; margin: 15px 2px;}
-.heading_box{height: 25px; width: 100%; padding: 5px; margin: 2px; color: #214b8c; font-size: 28px; text-align: center;}
-.line-break{width: 100%; font-size: 1px; color: #214b8c; line-height: 2px; background-color: #214b8c; margin-top: 20px; margin-bottom: 20px; margin-left: 2.5px; padding-right: 15px; }
+.heading_box{height: 25px; width: 100%; padding: 5px; margin: 2px; color: #022B3A; font-size: 24px; text-align: center;}
+.line-break{width: 100%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: 20px; margin-bottom: 20px; margin-left: 2.5px; padding-right: 15px; }
 .faculty_img{width:auto; height:150px; display:block; margin:auto; border:1px solid; border-radius: 25px;}
-.faculty_name{font-size: 24px; color:#214b8c; text-align: center; margin-top: 6px;}
+.faculty_name{font-size: 20px; color:#022B3A; text-align: center; margin-top: 6px;}
 .faculty_post{font-size: 20px; color:#3275aa; text-align: center; margin-top: -30px; margin-bottom: 12px;} 
-.content-break{width: 95%; font-size: 1px; color: #214b8c; line-height: 2px; background-color: #214b8c; margin-top: -30px; margin-bottom: 2px;}
-.content{text-align: center; font-size: 14px; margin-top: 5px;}
-.profile_button{color:#214b8c; border:2px solid #3275aa; padding: 5px; font-family: normal; font-size: 15px; display: block; margin: 15px auto; border-radius: 5px; cursor: pointer; background: white;}
+.content-break{width: 95%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: -30px; margin-bottom: 2px;}
+.content{text-align: center; font-size: 16px; margin-top: 5px;}
+.profile_button{color:#022B3A; border:2px solid #3275aa; padding: 5px; font-family: normal; font-size: 15px; display: block; margin: 15px auto; border-radius: 5px; cursor: pointer; background: white;}
 .highlight{color:#3275aa;}
 
 

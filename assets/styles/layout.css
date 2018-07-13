@@ -281,7 +281,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#9A4C16;}
+body{color:#FFFFFF; background-color:#022B3A;}
 
 a{color:#55ABDA;}
 
@@ -289,17 +289,19 @@ hr, .borderedbox{border-color:#D7D7D7;}
 
 label span{color:#FF0000; background-color:inherit;}
 
-.rounded{color:inherit; background-color:#F9F9F9;}
+.rounded{color:inherit; background-color:#FFFFFF;}
 
 
 /* Rows */
-.row0, .row0 a{color:#F9F9F9; background-color:#9A4C16;}
-.row1{color:#979797; background-color:#9A4C16;}
-.row1 a{color:#F9F9F9; background-color:inherit;}
-.row2, .row2 a{color:#9A4C16; background-color:inherit;}
-.row3{color:#979797; background-color:inherit;}
-.row4{color:#979797; background-color:inherit;}
-.row5, .row5 a{color:#55ABDA; background-color:#9A4C16;}
+.row0, .row0 a{color:#FFFFFF; background-color:#022B3A;}
+.row1{color:black; background-color:#022B3A;}
+.row1 a{color:#FFFFFF; background-color:inherit;}
+.row2, .row2 a{color:#022B3A; background-color:inherit;}
+.row3{color:black; background-color:inherit;}
+.row3 a{color:#3275AA;}
+.row4{color:black; background-color:inherit;}
+.row4 a{color:#3275AA;}
+.row5, .row5 a{color:#55ABDA; background-color:#022B3A;}
 
 
 /* Top Bar */
@@ -307,24 +309,23 @@ label span{color:#FF0000; background-color:inherit;}
 
 
 /* Header */
-#header input{color:#979797; background-color:#FFFFFF;}
-#header button{color:#F9F9F9; background-color:#55ABDA;}
+#header input{color:black; background-color:#FFFFFF;}
+#header button{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Homepage Slider */
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
 #slide-wrapper figure figcaption:hover{background-color:rgba(255,255,255,1);}
 #slider #slide-tabs li a{color:#666666; background-color:#DEDACB; border-color:#666666;}
-#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#9A4C16;}
+#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Content Area */
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
 
-.subhead{color: #8C1310; font-size: 24px;}
-.h7{color: #555555;}
-.h7-head{font-size:18px; color: #1E1E1E;}
-.h8{color: #8C1310; font-size: 18px;}
+.subhead{color: #022B3A; font-size: 24px;}
+.h7-head{color: #3275AA;}
+.h8{color: #022B3A; font-size: 18px;}
 
 .ct{
 	width:100%;
@@ -342,14 +343,14 @@ label span{color:#FF0000; background-color:inherit;}
 .listing li{border-color:#D7D7D7;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
-.quickinfo li a:hover{color:#FFFFFF; background-color:#9A4C16;}
+.quickinfo li a:hover{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Footer */
 #footer .faico a{box-shadow:2px 2px 0 0 rgba(0,0,0,.5); border-color:rgba(0,0,0,.2);}
 
 #footer input{color:#FFFFFF; background-color:#979797;}
-#footer button{color:#F9F9F9; background-color:#55ABDA;}
+#footer button{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Navigation */
@@ -366,17 +367,21 @@ label span{color:#FF0000; background-color:inherit;}
 .container .sidebar nav a:hover{color:#55ABDA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current strong{color:#FFFFFF; background-color:#9A4C16;}
+.pagination .current strong{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 th{color:#FFFFFF; background-color:#373737;}
-tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
+tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#E1E5F2;}
 tr:nth-child(odd), #comments li:nth-child(odd){color:inherit; background-color:#FFFFFF;}
 table a, #comments a{background-color:inherit;}
 
-
+/* News Box */
+.news_box{background-color: #E1E5F2; width: 90%; height:95%; border-left: 5px solid #3275aa; color: black; border-radius: 5px; padding:10px; margin-bottom: 10px;}
+.news_img{width:60px; height:60px; display:block; margin-right: 5px; margin-bottom: 5px; border:1px; border-radius: 10px; float: left;}
+.achi_container{height:200px; width:100%;}
+.announce_container{height: 100px; width: 100%;}
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */

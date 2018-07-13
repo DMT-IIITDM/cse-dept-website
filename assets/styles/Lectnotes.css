@@ -16,7 +16,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
 .row1, .row1 a{}
-.row2, .row2 a{position: sticky; top: 0;}
+.row2, .row2 a{}
 .row3, .row3 a{}
 .row4, .row4 a{}
 .row5, .row5 a{}
@@ -256,7 +256,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#F9F9F9; background-color:#9A4C16;}
+body{color:#FFFFFF; background-color:#022B3A;}
 
 a{color:#55ABDA;}
 
@@ -264,17 +264,19 @@ hr, .borderedbox{border-color:#D7D7D7;}
 
 label span{color:#FF0000; background-color:inherit;}
 
-.rounded{color:#9A4C16; background-color:#F9F9F9;}
+.rounded{color:#022B3A; background-color:#FFFFFF;}
 
 
 /* Rows */
-.row0, .row0 a{color:#F9F9F9; background-color:#9A4C16;}
-.row1{color:#979797; background-color:#9A4C16;}
-.row1 a{color:#F9F9F9; background-color:inherit;}
-.row2, .row2 a{color:#9A4C16; background-color:inherit;}
-.row3{color:#979797; background-color:inherit;}
-.row4{color:#979797; background-color:inherit;}
-.row5, .row5 a{color:#55ABDA; background-color:#9A4C16;}
+.row0, .row0 a{color:#FFFFFF; background-color:#022B3A;}
+.row1{color:black; background-color:#022B3A;}
+.row1 a{color:#FFFFFF; background-color:inherit;}
+.row2, .row2 a{color:#022B3A; background-color:inherit;}
+.row3{color:black; background-color:inherit;}
+.row3 a{color:#3275AA;}
+.row4{color:black; background-color:inherit;}
+.row4 a{color:#3275AA;}
+.row5, .row5 a{color:#55ABDA; background-color:#022B3A;}
 
 
 /* Top Bar */
@@ -283,33 +285,35 @@ label span{color:#FF0000; background-color:inherit;}
 
 /* Header */
 #header input{color:#979797; background-color:#FFFFFF;}
-#header button{color:#F9F9F9; background-color:#55ABDA;}
+#header button{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Homepage Slider */
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
 #slide-wrapper figure figcaption:hover{background-color:rgba(255,255,255,1);}
 #slider #slide-tabs li a{color:#666666; background-color:#DEDACB; border-color:#666666;}
-#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#9A4C16;}
+#slider #slide-tabs li a:hover, #slider #slide-tabs li.active a{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Content Area */
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6, .container .heading{border-color:#D7D7D7;}
 
-#twitter{color:#FFFFFF; background-color: #9A4C16;}
+.h8{color: #022B3A; font-size: 18px;}
+
+#twitter{color:#FFFFFF; background-color: #022B3A;}
 #twitter div:first-child{border-color:#FFFFFF;}
 
 .listing li{border-color:#D7D7D7;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
-.quickinfo li a:hover{color:#FFFFFF; background-color:#9A4C16;}
+.quickinfo li a:hover{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Footer */
 #footer .faico a{box-shadow:2px 2px 0 0 rgba(0,0,0,.5); border-color:rgba(0,0,0,.2);}
 
 #footer input{color:#FFFFFF; background-color:#979797;}
-#footer button{color:#F9F9F9; background-color:#55ABDA;}
+#footer button{color:#FFFFFF; background-color:#55ABDA;}
 
 
 /* Navigation */
@@ -326,22 +330,22 @@ label span{color:#FF0000; background-color:inherit;}
 .container .sidebar nav a:hover{color:#55ABDA;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current strong{color:#FFFFFF; background-color:#9A4C16;}
+.pagination .current strong{color:#FFFFFF; background-color:#022B3A;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 th{color:#FFFFFF; background-color:#373737;}
-tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
+tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#E1E5F2;}
 tr:nth-child(odd), #comments li:nth-child(odd){color:inherit; background-color:#FFFFFF;}
 table a, #comments a{background-color:inherit;}
 /*Lecture Notes
 --------------------------------------------------------------------------------------------------------------*/
 .alpha{font-size: 30px;width:50%;padding-top:20px;border-radius: 10px;}
-.beta{width: 100%;font-style: sans-serif;color: black;font-size: 25px;border-radius: 10px;}
-.gamma{width: 50%;font-size: 20px;}
+.beta{width: 100%;font-style: sans-serif;color: #022B3A;font-size: 24px;border-radius: 10px;}
+.gamma{width: 50%;font-size: 20px; color:#3275AA}
 
-.dropbtn { color:#214b8c;  font-family: normal; font-size: 20px; display:inline-block;  cursor: pointer; background: white; }
+.dropbtn { color:#022B3A;  font-family: normal; font-size: 20px; display:inline-block;  cursor: pointer; background: white; }
 
 .dropbtn:hover, .dropbtn:focus {   }
 
@@ -354,7 +358,7 @@ table a, #comments a{background-color:inherit;}
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-.line-break{width: 154%; font-size: 1px; color: #214b8c; line-height: 2px; background-color: #214b8c; margin-top: 20px; margin-bottom: 20px; }
+.line-break{width: 154%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: 20px; margin-bottom: 20px; }
 .mainbox{width: 98%;margin-left: 0px;padding-left: 15px; height: 100%;background-color:  #F2F1EB;}
 
 /* Media Queries
