@@ -13,6 +13,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="assets/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/styles/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/styles/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all">
 <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
 </head>
@@ -302,6 +304,7 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
             </li>
           </ul>
           </marquee>
+          
         </div>
           <p class="right"><a href="http://www.iiitdm.ac.in/Others/noti.php">Click here to view all of the latest news and events &raquo;</a></p>
           <!--<div class="sdb_holder">
@@ -335,8 +338,35 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
           <h2 class="subhead">Campus Tour</h2>
       </div>
       <div class="ct"> <iframe src="https://www.youtube.com/embed/ujtUyW30P60?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div><div class="clear"></div>
+      <br>
+      <h2 class="subhead">Our Past Recruiters</h2>
+         <p >The department has a remarkable placement statistics and almost all B.Tech students are employed in product oriented companies such as Trimble, Start Smart Labs, Lucid Tech, Bally Tech, IVTL, etc.  Many students are part of startups working in the area of data science and machine learning.</p>
+          <div class="owl-carousel owl-theme">
+          	<div class="item">
+          		 <img src="images/demo/past/1.png" alt="" style="width:auto;height:100px;"></div>
+		      	<div class="item">
+          		 <img src="images/demo/past/2.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/3.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/4.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/5.jpg" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/6.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/7.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/8.png" alt="" style="width:auto;height:100px;"></div>
+		  	<div class="item">
+          		 <img src="images/demo/past/9.png" alt="" style="width:auto;height:100px;"></div>
+</div>
     </main>
   </div>
+  
+          
+       
+
 </div>
 <!-- ################################################################################################ --> 
 <!-- ################################################################################################ --> 
@@ -412,8 +442,31 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
 </div>
 <!-- JAVASCRIPTS --> 
 <script src="assets/scripts/jquery.min.js"></script> 
+<script src="assets/scripts/owl.carousel.js"></script> 
 <script src="assets/scripts/jquery.fitvids.min.js"></script> 
 <script src="assets/scripts/jquery.mobilemenu.js"></script> 
 <script src="assets/scripts/tabslet/jquery.tabslet.min.js"></script>
+<script type="text/javascript">
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsiveRefreshRate:true,
+    responsive:{
+        0:{
+            items:5,
+            nav:true
+        },
+        
+        1000:{
+            items:5,
+            nav:true,
+            loop:true,
+            autoplay:true,
+            slideSpeed: 200
+        }
+    }
+})
+</script>
 </body>
 </html>
