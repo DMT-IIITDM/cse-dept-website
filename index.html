@@ -448,20 +448,20 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
 <script src="assets/scripts/jquery.mobilemenu.js"></script> 
 <script src="assets/scripts/tabslet/jquery.tabslet.min.js"></script>
 <script type="text/javascript">
-	$('.owl-carousel').owlCarousel({
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
     loop:true,
     margin:10,
-    responsiveClass:true,
-    responsiveRefreshRate:true,
-    responsive:{
-        1000:{
-            items:5,
-            nav:true,
-            loop:true,
-            autoplay:true,
-            slideSpeed: 200
-        }
-    }
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
 })
 </script>
 </body>
