@@ -12,6 +12,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>Dept. of CSE, IIITDM Kancheepuram</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="assets/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/styles/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
 <link href="assets/styles/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all">
@@ -67,46 +69,73 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <div class="wrapper row2">
   <div class="rounded">
-    <nav id="mainav" class="clear"> 
-      <!-- ################################################################################################ -->
-      <ul class="clear">
-        <li class="active"><a href="index.html"><span>Home</span></a></li>
-        <li><a class="drop" href="#"><span>Teaching</span></a>
-          <ul>
-          	<li><a href="overview.html">Over view</a></li>
-            <li><a href="http://iiitdm.ac.in/Academics/Curriculum.php">Curriculum</a></li>
-            <li><a href="Online-Electives.html">Online Electives</a></li>
-            <li><a href="http://iiitdm.ac.in/img/Others/TT_Jan_May2018.pdf">Time Table</a></li>
-            <li><a href="lectnotes.html">Lecture Notes</a></li>
-            <li><a href="bestprojects.html">Best Projects</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#"><span>People</span></a>
-          <ul class="alt">
-            <li><a href="faculty.html">Faculty</a></li>
-            <li><a href="staff.html">Staff</a></li>
-            <li><a href="http://iiitdm.ac.in/People/research.php?COE">Research Scholars</a></li>
-            <li><a href="http://iiitdm.ac.in/People/students.php">Students</a></li>
-            <li><a class="drop" href="#">Alumni</a>
-              <ul>
-                <li><a href="alumni.html">In Abroad</a></li>
-                <li><a href="alumni2.html">In India</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="spons-research.html"><span>Sponsored Research</span></a></li>
-        <li><a class="drop" href="#"><span>Outreach</span></a>
-              <ul>
-                <li><a href="workshop.html">Workshops</a></li>
-                <li><a href="intern.html">Summer Internships</a></li>
-              </ul>
-            </li>
-            <li><a href="indus-consult.html"><span>Industrial Consultancy</span></a></li>
-            <li><a href="#"><span>Gallery</span></a></li>
-      </ul>
-      <!-- ################################################################################################ --> 
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" id="menubrand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a id="resize" class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="resize" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Teaching
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="overview.html">Over View</a>
+          <a class="dropdown-item" href="http://iiitdm.ac.in/Academics/Curriculum.php">Curriculum</a>
+          <a class="dropdown-item" href="Online-Electives.html">Online Electives</a>
+          <a class="dropdown-item" href="http://iiitdm.ac.in/img/Others/timetable.xlsx">Time Table</a>
+          <a class="dropdown-item" href="lectnotes.html">Lecture Notes</a>
+          <a class="dropdown-item" href="bestprojects.html">Best Projects</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="resize" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          People
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="faculty.html">Faculty</a>
+          <a class="dropdown-item" href="staff.html">Staff</a>
+          <a class="dropdown-item" href="http://iiitdm.ac.in/People/research.php?COE">Research Scholars</a>
+          <a class="dropdown-item" href="http://iiitdm.ac.in/People/students.php">Students</a>
+           <a class="nav-link dropdown-toggle dropright" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left:15px;">Alumni</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="alumni.html">In Abroad</a>
+          <a class="dropdown-item" href="alumni2.html">In India</a>
+         </div>
+      </li>
+
+      <li class="nav-item">
+        <a id="resize" class="nav-link" href="spons-research.html">Sponsered Research</a>
+      </li>
+
+
+      <li class="nav-item dropdown">
+        <a id="resize" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Outreach
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="workshop.html">Workshop</a>
+          <a class="dropdown-item" href="intern.html">Summer Interships</a>
+        </div>
+      </li>
+
+<li class="nav-item">
+        <a id="resize" class="nav-link" href="indus-consult.html">Industrial Consultancy</a>
+      </li>
+
+     <li class="nav-item">
+        <a id="resize" class="nav-link" href="#">Gallery</a>
+      </li> 
+      
+    </ul>
+   
+  </div>
+</nav>
   </div>
 </div>
 <!-- ################################################################################################ --> 
@@ -344,23 +373,23 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
          <p >The department has a remarkable placement statistics and almost all B.Tech students are employed in product oriented companies such as Trimble, Start Smart Labs, Lucid Tech, Bally Tech, IVTL, etc.  Many students are part of startups working in the area of data science and machine learning.</p>
           <div class="owl-carousel owl-theme">
           	<div class="item">
-          		 <img src="images/demo/past/1.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/1.png" alt="" style="height:100px;width:auto;"></div>
 		      	<div class="item">
-          		 <img src="images/demo/past/2.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/2.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/3.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/3.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/4.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/4.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/5.jpg" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/5.jpg" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/6.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/6.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/7.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/7.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/8.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/8.png" alt="" style="height:100px;width:auto;"></div>
 		  	<div class="item">
-          		 <img src="images/demo/past/9.png" alt="" style="width:auto;height:100px;"></div>
+          		 <img src="images/demo/past/9.png" alt="" style="height:100px;width:auto;"></div>
 </div>
     </main>
   </div>
@@ -442,6 +471,11 @@ The laboratories are equipped with powerful HP Workstations, FUJITSU Windows Ser
   </div>
 </div>
 <!-- JAVASCRIPTS --> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 <script src="assets/scripts/jquery.min.js"></script> 
 <script src="assets/scripts/owl.carousel.js"></script> 
 <script src="assets/scripts/jquery.fitvids.min.js"></script> 
@@ -464,5 +498,9 @@ $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
 </script>
+
+
+
+
 </body>
 </html>

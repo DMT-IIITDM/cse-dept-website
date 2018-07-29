@@ -389,6 +389,27 @@ table a, #comments a{background-color:inherit;}
 /* ------------------------------------------------------------------------------------------------------------ */
 
 
+
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)  { 
+#menubrand{
+/*visibility: hidden;*/
+display:none;
+	}
+ }
+
+#resize{
+	font-size: 18px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+
+
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
 @-ms-viewport{width:device-width;}
