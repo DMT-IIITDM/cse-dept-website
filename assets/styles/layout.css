@@ -240,7 +240,7 @@ td{border-width:1px;}
 .faicon-flickr{background-color:#FF0084;}
 .faicon-linkedin{background-color:#0E76A8;}
 .faicon-rss{background-color:#EE802F;}
-.faicon-twitter{background-color:#00ACEE;}
+/*.faicon-twitter{background-color:#00ACEE;}*/
 .faicon-instagram{ color:#FFFFFF; 
   background: #f09433; 
 background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
@@ -311,7 +311,14 @@ label span{color:#FF0000; background-color:inherit;}
 /* Header */
 #header input{color:black; background-color:#FFFFFF;}
 #header button{color:#FFFFFF; background-color:#55ABDA;}
-
+.row{ margin-left: 0px; margin-right: 0px;
+}
+#CSElogo{width:80%;height: auto;}
+#deptTitle{margin-left: auto;
+    margin-right: auto;}
+#deptLogo{
+ margin-left: auto;
+    margin-right: auto;}
 
 /* Homepage Slider */
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
@@ -344,6 +351,7 @@ label span{color:#FF0000; background-color:inherit;}
 
 .quickinfo li a{color:#666666; background-color:#DEDACB;}
 .quickinfo li a:hover{color:#FFFFFF; background-color:#022B3A;}
+
 
 
 /* Footer */
@@ -387,6 +395,7 @@ table a, #comments a{background-color:inherit;}
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
+
 
 
 /* Media Queries
