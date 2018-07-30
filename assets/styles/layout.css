@@ -313,12 +313,10 @@ label span{color:#FF0000; background-color:inherit;}
 #header button{color:#FFFFFF; background-color:#55ABDA;}
 .row{ margin-left: 0px; margin-right: 0px;
 }
-#CSElogo{width:80%;height: auto;}
-#deptTitle{margin-left: auto;
-    margin-right: auto;}
-#deptLogo{
- margin-left: auto;
-    margin-right: auto;}
+#CSElogo{width:80%;height: auto;margin-left: auto;
+    margin-right: auto;
+display: block;}
+
 
 /* Homepage Slider */
 #slide-wrapper figure figcaption{color:#666666; background-color:rgba(255,255,255,.5);}
@@ -395,8 +393,14 @@ table a, #comments a{background-color:inherit;}
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
+@media (max-width: 991.98px) {
+#deptTitle{margin-left: auto;
+    margin-right: auto;}
+#deptLogo{
+ margin-left: auto;
+    margin-right: auto;}}
 
-
+}
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
