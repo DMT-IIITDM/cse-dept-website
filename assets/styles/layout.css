@@ -409,7 +409,7 @@ table a, #comments a{background-color:inherit;}
 @media (min-width: 992px)  { 
 #menubrand{
 /*visibility: hidden;*/
-display:none;
+display: none;
 	}
  }
 
