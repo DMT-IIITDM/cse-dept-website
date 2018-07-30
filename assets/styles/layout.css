@@ -351,7 +351,6 @@ display: block;}
 .quickinfo li a:hover{color:#FFFFFF; background-color:#022B3A;}
 
 
-
 /* Footer */
 #footer .faico a{box-shadow:2px 2px 0 0 rgba(0,0,0,.5); border-color:rgba(0,0,0,.2);}
 
@@ -401,6 +400,26 @@ table a, #comments a{background-color:inherit;}
     margin-right: auto;}}
 
 }
+
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px)  { 
+#menubrand{
+/*visibility: hidden;*/
+display:none;
+	}
+ }
+
+#resize{
+	font-size: 18px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */

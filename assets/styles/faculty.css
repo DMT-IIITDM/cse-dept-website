@@ -374,7 +374,7 @@ table a, #comments a{background-color:inherit;}
 .empty_box{ height: 425px; width: 100%; border-radius: 5px; padding: 10px; margin: 15px 2px;}
 .heading_box{height: 25px; width: 100%; padding: 5px; margin: 2px; color: #022B3A; font-size: 24px; text-align: center;}
 .line-break{width: 100%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: 20px; margin-bottom: 20px; margin-left: 2.5px; padding-right: 15px; }
-.faculty_img{width:125px; height:150px; display:block; margin:auto; border:1px solid; border-radius: 25px;}
+.faculty_img{width:auto; height:150px; display:block; margin:auto; border:1px solid; border-radius: 25px;}
 .faculty_name{font-size: 20px; color:#022B3A; text-align: center; margin-top: 6px;}
 .faculty_post{font-size: 20px; color:#3275aa; text-align: center; margin-top: -30px; margin-bottom: 12px;} 
 .content-break{width: 95%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: -30px; margin-bottom: 2px;}
