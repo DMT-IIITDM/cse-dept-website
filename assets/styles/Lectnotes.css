@@ -166,7 +166,6 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
 #mainav form select{width:100%; padding:5px; border:1px solid;}
 #mainav form select option{margin:5px; padding:0; border:none;}
-
 /* Breadcrumb */
 #breadcrumb{}
 #breadcrumb ul{margin:0; padding:0; list-style:none;}
@@ -211,18 +210,19 @@ td{border-width:0 1px;}
 .faico a{color:#FFFFFF;}
 .faico a:hover{color:#FFFFFF; background-color:#CCCCCC; background:#CCCCCC;}
 
-.faicon-facebook{background-color:#3B5998;}
+.faicon-facebook{background:#3B5998; color:#FFFFFF;}
 .faicon-flickr{background-color:#FF0084;}
 .faicon-linkedin{background-color:#0E76A8;}
 .faicon-rss{background-color:#EE802F;}
-.faicon-twitter{background-color:#00ACEE;}
-.faicon-instagram{ 
+/*.faicon-twitter{background-color:#00ACEE;}*/
+.faicon-instagram{ color:#FFFFFF; 
   background: #f09433; 
 background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   }
+
 
 
 

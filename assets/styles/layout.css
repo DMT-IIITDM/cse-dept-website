@@ -272,7 +272,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 #slider #slide-tabs li:last-child a{border-radius:0 0 8px 0;}
 
 
-/* ------------------------------------------------------------------------------------------------------------ */
+/* Lecture Notes
+------------------------------------------------------------------------------------------------------------ */
+.alpha{font-size: 30px;width:50%;padding-top:20px;border-radius: 10px;}
+#beta{width: 100%;font-style: sans-serif;color: #022B3A;font-size: 24px;border-radius: 10px; border:0px; padding:0px;}
+#gamma{font-size: 20px; color:#3275AA; border-bottom: 0px; padding:0px;}
+.dropbtn { color:#022B3A;  font-family: normal; font-size: 20px; display: inline-block; cursor: pointer; background: white; width:100%; }
+.dropbtn:hover, .dropbtn:focus {   }
+
+.dropdown { position: relative;display: inline-block;}
+
+.dropdown-content {display: none;position: absolute;background-color: white;font-family:normal;font-size:16px;min-width: 160px;overflow: auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+
+.dropdown-content a {color:; padding: 12px 16px;text-decoration: none;display: block;}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.line-break{width: 100%; font-size: 1px; color: #022B3A; line-height: 2px; background-color: #022B3A; margin-top: 20px; margin-bottom: 20px; }
+.mainbox{width: 98%;margin-left: 0px;padding-left: 15px; height: 100%;background-color:  #F2F1EB;}
+hr{
+padding-top:4px;
+padding-bottom:2px;}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -429,6 +451,32 @@ display: none;
 }
 
 }
+
+/*media queries for buttons*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width:575px) {  
+	.dropdown {
+	  width:100%;
+	  } }
+	
+	
+	/*Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width:767px) {  
+	.dropdown {
+	  width:49.5%;
+	  } }
+	
+	/*Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) and (max-width:991px){ 
+	 .dropdown {
+	  width:49.5%;
+	  } }
+	
+	/* Large devices (desktops, 992px and up)*/
+	/*@media (min-width: 992px) { 
+	 .dropdown {
+	  width:24.5%;
+	  } }*/
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
