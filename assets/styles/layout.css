@@ -405,21 +405,30 @@ table a, #comments a{background-color:inherit;}
 
 
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px)  { 
-#menubrand{
+@media (min-width: 991.98px)  { 
+#brandDisplay{
 /*visibility: hidden;*/
 display: none;
 	}
  }
 
-#resize{
+ #resize{
 	font-size: 18px;
 	padding-right:15px;
 	padding-left:15px;
 }
 
+@media (min-width: 768px) { 
+#links1{
+	width:49%;
+	display: inline-block;
+}
+#links2{
+	width:49%;
+	display: inline-block;
+}
 
+}
 
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
